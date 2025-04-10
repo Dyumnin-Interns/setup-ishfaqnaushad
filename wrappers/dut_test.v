@@ -1,10 +1,7 @@
 module dut_test(
-  input a,
-  input b,
-  output y);
-  wire a;
-  wire b;
-  wire y;
+  input wire a,
+  input wire b,
+  output wire y);
  dut xor_(
     .a(a),
     .b(b),
