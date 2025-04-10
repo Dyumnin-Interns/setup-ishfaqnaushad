@@ -1,4 +1,4 @@
-module dut_test(
+module xor_test(
   input wire a,
   input wire b,
   output wire y);
