@@ -1,11 +1,11 @@
-module xor_test(
+module dut_test(
   input a,
   input b,
   output y);
   wire a;
   wire b;
-  reg y;
-  dut xor_(
+  wire y;
+ dut xor_(
     .a(a),
     .b(b),
     .y(y)
